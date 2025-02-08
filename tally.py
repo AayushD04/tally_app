@@ -179,9 +179,9 @@ with result_tab:
     sorted_counters = dict(sorted(counters.items(), key=lambda item: item[1], reverse=True))
 
     # Display sorted counters in the result tab
-    st.write("Counter Values in Descending Order:")
+    st.title("Counter Values in Descending Order:")
     for title, counter_value in sorted_counters.items():
-        st.write(f"{title}: {counter_value}")
+        st.header(f"{title}: {counter_value}")
 
 
 
