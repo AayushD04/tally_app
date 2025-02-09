@@ -54,14 +54,18 @@ with tally_tab:
         #THIKE
         with st.container(border=1):
             st.session_state.title = st.write("THIKE")
-            col1, col2 = st.columns([3,1])
-            col3, col4 = st.columns(2) 
+            col1, col2 = st.columns([3,1]) 
 
             with col2:
                 if st.button("+1",use_container_width=True, key = "+1_THIKE"):
                     funct_MegaIncrease_1(1)
                 if st.button("-1",use_container_width=True, key = "-1_THIKE"):
                     funct_MegaIncrease_1(-1)
+            
+            if st.button("+2",use_container_width=True, key = "+2_THIKE"):
+                                    funct_MegaIncrease_1(2)
+            
+            col3, col4 = st.columns(2) 
 
             with col3:
                 if st.button("+3",use_container_width=True, key = "+3_THIKE"):
@@ -83,14 +87,18 @@ with tally_tab:
         #OK
         with st.container(border=1):
             st.session_state.title = st.write("OK")
-            col1, col2 = st.columns([3,1])
-            col3, col4 = st.columns(2) 
+            col1, col2 = st.columns([3,1]) 
 
             with col2:
                 if st.button("+1",use_container_width=True, key = "+1_OK"):
                     funct_MegaIncrease_3(1)
                 if st.button("-1",use_container_width=True, key = "-1_OK"):
                     funct_MegaIncrease_3(-1)
+                
+            if st.button("+2",use_container_width=True, key = "+2_OK"):
+                                    funct_MegaIncrease_3(2)
+            
+            col3, col4 = st.columns(2) 
 
             with col3:
                 if st.button("+3",use_container_width=True, key = "+3_OK"):
@@ -114,13 +122,17 @@ with tally_tab:
         with st.container(border=1):
             st.session_state.title = st.write("HAINA")
             col1, col2 = st.columns([3,1])
-            col3, col4 = st.columns(2) 
 
             with col2:
                 if st.button("+1",use_container_width=True, key = "+1_HAINA"):
                     funct_MegaIncrease_2(1)
                 if st.button("-1",use_container_width=True, key = "-1_HAINA"):
                     funct_MegaIncrease_2(-1)
+            
+            if st.button("+2",use_container_width=True, key = "+2_HAINA"):
+                                    funct_MegaIncrease_2(2)
+            
+            col3, col4 = st.columns(2) 
 
             with col3:
                 if st.button("+3",use_container_width=True, key = "+3_HAINA"):
@@ -143,13 +155,17 @@ with tally_tab:
         with st.container(border=1):
             st.session_state.title = st.write("O-B-OSLY")
             col1, col2 = st.columns([3,1])
-            col3, col4 = st.columns(2) 
 
             with col2:
                 if st.button("+1",use_container_width=True, key = "+1_O-B-OSLY"):
                     funct_MegaIncrease_4(1)
                 if st.button("-1",use_container_width=True, key = "-1_O-B-OSLY"):
                     funct_MegaIncrease_4(-1)
+            
+            if st.button("+2",use_container_width=True, key = "+2_O-B-OSLY"):
+                                    funct_MegaIncrease_4(2)
+            
+            col3, col4 = st.columns(2) 
 
             with col3:
                 if st.button("+3",use_container_width=True, key = "+3_O-B-OSLY"):
